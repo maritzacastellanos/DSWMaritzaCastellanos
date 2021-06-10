@@ -1,0 +1,60 @@
+*{
+    margin: 5px;
+    border-radius: 3px;
+}
+header{
+background-color: rgb(230, 233, 240);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+aside{
+    grid-column: 1;
+    background-color: rgb(185, 183, 187);
+}
+section{
+    grid-column: 1;
+    background-color: rgb(185, 183, 187);
+}
+footer{
+    text-align: center;
+    background-color: rgb(4, 19, 4);   
+    color: white;
+    padding: 10px;
+}
+.menu{/*prueba 1*/
+  display: flex;  
+}
+nav ul {/* 2da prueba*/
+    list-style: none; /*???*/
+    padding: 5px;
+    color: #fff; /*???*/
+    background: black;
+}
+.menu li {
+    width: 100%;
+    text-align: center;
+}
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: chocolate;
+    height: 25px;
+    text-align: none;
+}
+.dropdown li {
+    display: none;
+}
+.menu li:hover .dropdown li {
+display: block;
+}
+.menu li:hover {
+    background: blueviolet;
+    color: #fff;
+}

@@ -1,60 +1,61 @@
 *{
     margin: 5px;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 header{
-background-color: rgb(230, 233, 240);
-display: flex;
-justify-content: space-between;
-align-items: center;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 aside{
-    grid-column: 1;
-    background-color: rgb(185, 183, 187);
+    grid-column: 1/2;
+    background-color: rgb(232 240 255);
 }
 section{
-    grid-column: 1;
-    background-color: rgb(185, 183, 187);
+    grid-column: 2/5;
+    background-color: #4080ff1f;
 }
 footer{
     text-align: center;
-    background-color: rgb(4, 19, 4);   
+    background-color: #014d6585;
     color: white;
     padding: 10px;
 }
-.menu{/*prueba 1*/
-  display: flex;  
+.menu { /* 1era Prueba*/
+    display: flex;
 }
-nav ul {/* 2da prueba*/
-    list-style: none; /*???*/
+nav ul {/* 2da Prueba*/
+    list-style: none; 
     padding: 5px;
-    color: #fff; /*???*/
-    background: black;
+    color: #fff; 
+    background: #275969e6;
 }
 .menu li {
     width: 100%;
     text-align: center;
 }
 .menu a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    background: chocolate;
-    height: 25px;
-    text-align: none;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+background:#d2691e8c;
+height: 25px;
+text-decoration: none;
 }
 .dropdown li {
     display: none;
 }
 .menu li:hover .dropdown li {
-display: block;
+    display: block;
 }
-.menu li:hover {
-    background: blueviolet;
+.menu a:hover {
+    background:rgb(165 70 134 / 54%);
     color: #fff;
+
 }

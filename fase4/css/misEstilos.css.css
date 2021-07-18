@@ -1,0 +1,21 @@
+*{
+    margin: 3px; /*margen de los contenedores, amplia la línea de separación entre cada caja -- borde afuera*/
+    border-radius: 3px;/Bordes de los contenedores, 3px queda casi cuadrado, si aumentamos más redondo*/
+}
+header{
+    background-color: rgb(236, 233, 240);
+    display: flex;
+    justify-content: space-between; /* justificar*/
+    align-items: center;
+}
+.contenedor{ /* Crea una rejilla con 1 fila y 4 columnas)*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer{
+    text-align: center;
+    background-color: rgb(4, 19, 4);
+    color: white;
+    padding: 10px;
+}
+

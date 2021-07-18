@@ -6,12 +6,16 @@ header{
 }
 .contenedor{ /* Crea una rejilla con 1 fila y 4 columnas)*/
     background-color: #fff;;
-}
-@media(max-width:100px){
-    .contenedor{
-      background-color: #fff;
+}    
+
+    @media screen and (max-width: 100px){
+        .contenedor{
+            height: auto;
         }
-    header{
-        flex-direction: column;
-        align-items: flex-start;
+        section{
+            width: auto;
+        }
+        nav{
+            display: none;
+        }
     }
